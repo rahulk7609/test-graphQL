@@ -6,7 +6,7 @@ export const useGQLQuery = (key, query, variables, config = {})=> {
 
     const headers = {
         header:  {
-            authorization : "anything is fine here"
+            authorization : "Bearer MY_TOKEN"
         }
     }
 
